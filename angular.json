@@ -68,7 +68,14 @@
             "ci": {
               "progress": false
             }
-          }
+          },
+          "allowedCommonJsDependencies": [
+            "crypto",
+            "http",
+            "https",
+            "stream",
+            "os"
+          ]
         },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
